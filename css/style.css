@@ -1,7 +1,51 @@
+/* general */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-secondary);
+}
 :root {
 	--color-accessory: #7e93dc;
 	--color-secondary: #ffffff;
 	--color-primary: #292841;
 	--color-section-bg: #f6f6f6;
 	--color-header-bg: #2a5ee8;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+}
+ul{
+    list-style: none;
+}
+/* utility */
+/* .debug{
+    border: 2px solid black;
+} */
+main section{
+    padding:60px 0;
+}
+.even{
+    background-color: var(--color-section-bg);
+}
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+/* header */
+header{
+    background-color: var(--color-header-bg);
+}
+/* main */
+
+/* footer */
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
 }
